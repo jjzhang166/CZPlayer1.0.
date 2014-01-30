@@ -1,0 +1,920 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{f0f2420c-e290-45aa-b773-f727c88df738}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{4fae6dc2-d848-431c-9ac1-61894d86e17c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="code">
+      <UniqueIdentifier>{e3e35f68-ab23-4fa3-9e04-681fe1e0b088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="configPanel">
+      <UniqueIdentifier>{392f16e4-030c-4318-b250-448604fe482e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="downloadWidget">
+      <UniqueIdentifier>{8dc88452-7711-465a-a5b8-59e6f2e8db92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lrcLabel">
+      <UniqueIdentifier>{27e81734-d33d-4b82-b5ae-19b641ecd62e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainWidget">
+      <UniqueIdentifier>{f0ecdcfb-28e1-4f8b-92e2-aa18502b0e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minWidget">
+      <UniqueIdentifier>{6908898c-50da-4e4e-8c4a-016ff0064d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="musicList">
+      <UniqueIdentifier>{b503149c-42fc-4d96-8b67-2ced85ce2604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{050f40c9-2c27-4db9-8360-3db523bcadcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdParty">
+      <UniqueIdentifier>{189e0c56-dec7-4673-a7b1-0485f0ec874d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdParty\qxtglobalshortcut">
+      <UniqueIdentifier>{0b0826f6-88e3-4bb4-ba53-61ef114a967c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdParty\qtsingleapplication">
+      <UniqueIdentifier>{d3658bdb-f9c9-4e46-b982-00fb236cc451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB">
+      <UniqueIdentifier>{a4a18237-3db2-4f90-91ea-7dcee919f8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{649426c8-93a4-43dc-b717-30cbe82c794d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aboutPanel">
+      <UniqueIdentifier>{007db32a-0a86-4b60-9b97-1032c5a49fbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\qrc_resource.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\czplayerconfig.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_czplayerconfig.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_czplayerconfig.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="code\globalhotkey.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_globalhotkey.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_globalhotkey.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="code\main.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\nofocusdelegate.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_nofocusdelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_nofocusdelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="code\stdafx.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="configPanel\configdialog.cpp">
+      <Filter>configPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_configdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_configdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="configPanel\downloadsettingspage.cpp">
+      <Filter>configPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_downloadsettingspage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_downloadsettingspage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="configPanel\generalsettingspage.cpp">
+      <Filter>configPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_generalsettingspage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_generalsettingspage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="configPanel\hotkeyssettingspage.cpp">
+      <Filter>configPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_hotkeyssettingspage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_hotkeyssettingspage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="configPanel\hotkeystablewidget.cpp">
+      <Filter>configPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_hotkeystablewidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_hotkeystablewidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="configPanel\lrcdemo.cpp">
+      <Filter>configPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_lrcdemo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_lrcdemo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="configPanel\lrcsettingspage.cpp">
+      <Filter>configPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_lrcsettingspage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_lrcsettingspage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="configPanel\proxysettingspage.cpp">
+      <Filter>configPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_proxysettingspage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_proxysettingspage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="downloadWidget\downloadlist.cpp">
+      <Filter>downloadWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_downloadlist.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_downloadlist.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="downloadWidget\musicdownload.cpp">
+      <Filter>downloadWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_musicdownload.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_musicdownload.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="lrcLabel\musiclrc.cpp">
+      <Filter>lrcLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_musiclrc.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_musiclrc.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="mainWiget\widget.cpp">
+      <Filter>mainWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_widget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_widget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="minWidget\minmusicwidget.cpp">
+      <Filter>minWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_minmusicwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_minmusicwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="musicList\musiclist.cpp">
+      <Filter>musicList</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_musiclist.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_musiclist.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="musicList\musiclistwidget.cpp">
+      <Filter>musicList</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_musiclistwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_musiclistwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\albumthread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_albumthread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_albumthread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\downloadthread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_downloadthread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_downloadthread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdParty\qxtglobalshortcut\qxtglobalshortcut.cpp">
+      <Filter>thirdParty\qxtglobalshortcut</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qxtglobalshortcut.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qxtglobalshortcut.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdParty\qxtglobalshortcut\qxtglobalshortcut_win.cpp">
+      <Filter>thirdParty\qxtglobalshortcut</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\lrcthread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_lrcthread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_lrcthread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdParty\qtsingleapplication\qtlocalpeer.cpp">
+      <Filter>thirdParty\qtsingleapplication</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtlocalpeer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtlocalpeer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdParty\qtsingleapplication\qtsingleapplication.cpp">
+      <Filter>thirdParty\qtsingleapplication</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qtsingleapplication.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qtsingleapplication.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DB\DBModule.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DBModule.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DBModule.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ClientBaseOperating.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ClientBaseOperating.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ClientBaseOperating.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\MusicListSaveFormatEntity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\HotplugWatcherThread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HotplugWatcherThread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HotplugWatcherThread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="aboutPanel\AboutPage.cpp">
+      <Filter>aboutPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="aboutPanel\AboutPanel.cpp">
+      <Filter>aboutPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="aboutPanel\ThanksPage.cpp">
+      <Filter>aboutPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AboutPanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AboutPanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="aboutPanel\AuthorPage.cpp">
+      <Filter>aboutPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AuthorPage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AuthorPage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AboutPage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AboutPage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ThanksPage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ThanksPage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\CZPlayer.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CZPlayer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CZPlayer2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\Qt.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\addMusicButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\addMusicButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\albumImage.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\artistEdit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\artistEdit2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\backButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\backButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\backButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\clearMusicList.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\configButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\configDialog.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\delCurrentMusic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\deleteMusicButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\deleteMusicButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\downloadButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\downloadButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\downloadButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\downloadSettingsButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\endButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\endButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\endButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\findButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\findButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\folder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\generalSettingsButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\haiYangBlue.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\hideButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\hideButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\hideButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\hotKeysSettingsButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\huoYanRed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\jiaZai.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\jingDianWhite.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\kuXuanBlack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\langManPurple.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\locateButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\locateMusicButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\locateMusicButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\lock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\lrc.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\lrcButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\lrcButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\lrcButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\lrcSettingsButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\mainBg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\mainBg2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\mainBg3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minAction.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minLastButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minLastButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minLastButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minMainBg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minMainBg2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minMainButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minMainButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minMainWidget.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minNextButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minNextButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minNextButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minOpenFileButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minOpenFileButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minOpenFileButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minPauseButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minPauseButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minPauseButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minPlayButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minPlayButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minPlayButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minStopButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minStopButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minStopButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\musicEdit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\musicEdit2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\musicList.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\musicListButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\musicListButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\musicListButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qss\musicPlayer.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\nextButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\nextButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\nextButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\openFileButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\openFileButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\openFileButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\openMusicDownload.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\openMusicList.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\pauseDownload.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\preButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\preButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\preButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\progressBar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\progressBar2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\progressBarSub.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\proxySettingsButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\qiuSeYellow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qt_zh_CN\qt_zh_CN.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\quitAction.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="resource.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="images\searchButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\searchButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\searchButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\searchInput.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\searchInput2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\showButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\showButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\showButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\startDownload.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stopButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stopButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stopButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\trayLast.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\trayNext.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\trayPause.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\trayPlay.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\trayStop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\unlock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\volumeBar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\volumeBar2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\volumeBarPoint.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\volumeBarPoint2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\volumeBarPoint3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\volumeBarSub.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\volumeButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\volumeButton2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\volumeButton3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ziRanGreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\saveList.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\addMusic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\addMusicList.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CZPlayerBlack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CZPlayerBlue.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CZPlayerWhite.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CZPlayerIcon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="code\czplayerconfig.h">
+      <Filter>code</Filter>
+    </CustomBuild>
+    <CustomBuild Include="code\globalhotkey.h">
+      <Filter>code</Filter>
+    </CustomBuild>
+    <CustomBuild Include="code\nofocusdelegate.h">
+      <Filter>code</Filter>
+    </CustomBuild>
+    <CustomBuild Include="configPanel\configdialog.h">
+      <Filter>configPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="configPanel\downloadsettingspage.h">
+      <Filter>configPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="configPanel\generalsettingspage.h">
+      <Filter>configPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="configPanel\hotkeyssettingspage.h">
+      <Filter>configPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="configPanel\hotkeystablewidget.h">
+      <Filter>configPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="configPanel\lrcdemo.h">
+      <Filter>configPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="configPanel\lrcsettingspage.h">
+      <Filter>configPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="configPanel\proxysettingspage.h">
+      <Filter>configPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="downloadWidget\downloadlist.h">
+      <Filter>downloadWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="downloadWidget\musicdownload.h">
+      <Filter>downloadWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lrcLabel\musiclrc.h">
+      <Filter>lrcLabel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainWiget\widget.h">
+      <Filter>mainWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="minWidget\minmusicwidget.h">
+      <Filter>minWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="musicList\musiclist.h">
+      <Filter>musicList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="musicList\musiclistwidget.h">
+      <Filter>musicList</Filter>
+    </CustomBuild>
+    <CustomBuild Include="thread\albumthread.h">
+      <Filter>thread</Filter>
+    </CustomBuild>
+    <CustomBuild Include="thread\downloadthread.h">
+      <Filter>thread</Filter>
+    </CustomBuild>
+    <CustomBuild Include="thirdParty\qxtglobalshortcut\qxtglobalshortcut.h">
+      <Filter>thirdParty\qxtglobalshortcut</Filter>
+    </CustomBuild>
+    <CustomBuild Include="thread\lrcthread.h">
+      <Filter>thread</Filter>
+    </CustomBuild>
+    <CustomBuild Include="thirdParty\qtsingleapplication\qtlocalpeer.h">
+      <Filter>thirdParty\qtsingleapplication</Filter>
+    </CustomBuild>
+    <CustomBuild Include="thirdParty\qtsingleapplication\qtsingleapplication.h">
+      <Filter>thirdParty\qtsingleapplication</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DB\DBModule.h">
+      <Filter>DB</Filter>
+    </CustomBuild>
+    <CustomBuild Include="code\ClientBaseOperating.h">
+      <Filter>code</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Entity\Entity.h">
+      <Filter>Entity</Filter>
+    </CustomBuild>
+    <CustomBuild Include="thread\HotplugWatcherThread.h">
+      <Filter>thread</Filter>
+    </CustomBuild>
+    <CustomBuild Include="aboutPanel\AboutPanel.h">
+      <Filter>aboutPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="aboutPanel\AuthorPage.h">
+      <Filter>aboutPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="aboutPanel\AboutPage.h">
+      <Filter>aboutPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="aboutPanel\ThanksPage.h">
+      <Filter>aboutPanel</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\defaultScheme.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\head.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\static.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\stdafx.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\targetver.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdParty\qxtglobalshortcut\qxtglobal.h">
+      <Filter>thirdParty\qxtglobalshortcut</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdParty\qxtglobalshortcut\qxtglobalshortcut_p.h">
+      <Filter>thirdParty\qxtglobalshortcut</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity\MusicListSaveFormatEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
